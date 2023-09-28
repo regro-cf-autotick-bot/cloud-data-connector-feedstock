@@ -149,6 +149,3 @@ Feedstock Maintainers
 * [@jesushl](https://github.com/jesushl/)
 * [@ma-pineda](https://github.com/ma-pineda/)
 
-
-<!-- dummy commit to enable rerendering -->
-
