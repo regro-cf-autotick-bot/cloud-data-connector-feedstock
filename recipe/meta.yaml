@@ -1,5 +1,5 @@
 {% set name = "cloud-data-connector" %}
-{% set version = "1.0.2" %}
+{% set version = "1.0.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/cloud_data_connector-{{ version }}.tar.gz
-  sha256: 7851dec0e26594361a81ead40bf536f8d3ab1e53f233c350b9eb54ac06d36311
+  sha256: d077bc4cc034cb0ff19eab7968de19cbbbdb62eea6387b41664645a6c05fc156
 
 build:
   noarch: python
@@ -23,7 +23,7 @@ requirements:
   run:
     - python >=3.9,<3.11
     - azureml >=0.2.7
-    - azure-ai-ml >=1.4.0 
+    - azure-ai-ml >=1.4.0
     - azure-identity >=1.12.0
     - azure-storage-blob >=1.4.1
     - azure-core >=1.26.3
