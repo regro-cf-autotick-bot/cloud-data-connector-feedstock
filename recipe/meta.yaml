@@ -35,6 +35,7 @@ requirements:
     - google-cloud-storage >=2.1.0
     - packaging >=21.3
     - python-dotenv >=1.0.0
+    - moto >=5.0.0
 
 test:
   imports:
